@@ -1,14 +1,12 @@
 import Navbar from "./components/Navbar";
+import "./pages/HomePage.jsx";
+import HomePage from "./pages/HomePage.jsx";
 
 
 function App() {
   return ( 
     <>
-    <Navbar />
-    <button className="btn btn-outline">Default</button>
-    <button className="btn btn-outline btn-primary">Primary</button>
-    <button className="btn btn-outline btn-secondary">Secondary</button>
-    <button className="btn btn-outline btn-accent">Accent</button>
+    <HomePage/>
     </>
    );
 }

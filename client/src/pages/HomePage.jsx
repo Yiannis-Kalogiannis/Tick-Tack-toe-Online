@@ -4,11 +4,11 @@ import Navbar from "../components/Navbar";
 
 function HomePage() {
     return (
-        <>
+        <div className="">
         <Navbar />
-            <Board />
+        <Board />
         
-        </>
+        </div>
     );
 }
 
